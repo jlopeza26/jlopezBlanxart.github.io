@@ -1,0 +1,405 @@
+:root{
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    
+    --padding-container: 80px 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+/* hero */
+
+.hero{
+    --padding-container:120px 0 290px;
+    background-image: url('../img/Diari.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.hero_img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4.5em;
+}
+
+.hero_title{
+    color: var(--dark-grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.hero_parafro{
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+/* track */
+
+.track_texts{
+    text-align: center;
+    color: var(--dark-grayish-blue);
+}
+
+.title{
+    color: var(--dark-grayish-blue);
+    font-size: 2.5rem;
+}
+
+.parafro{
+    line-height: 1.5;
+    color: var(--grayish-blue);
+    margin-top: 1.5em;
+}
+
+.track_img{
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 3.5em;
+}
+
+.track_articles{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.track_offer{
+    color: var(--dark-grayish-blue);
+    font-size: 1.5em;
+}
+
+.track_copy{
+    margin-top: .7em;
+    line-height: 1.5;
+    color: var(--grayish-blue);
+}
+
+/* clipboard */
+
+.clipboard{
+    text-align: center;
+}
+
+.clipboard_picture{
+    margin: 3em 0 6em;
+}
+
+.clipboard_img{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.clipboard_offer{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.clipboard_item{
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.clipboard_title{
+    font-size: 1.5em;
+    color: var(--dark-grayish-blue);
+}
+
+.clipboard_parafro{
+    color: var(--grayish-blue);
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+.clipboard_icon{
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+/* brands */
+
+.brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5em;
+}
+
+.action{
+    text-align: center;
+}
+
+/* bottons */
+
+.buttons{
+    margin-top: 2.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+}
+
+.buttons_cta{
+    background-color: var(--strong-cyan);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1em 3em;
+    font-weight: 600;
+    padding: 1em 0;
+    box-shadow: 0 0 10px -5px var(--strong-cyan);
+}
+
+.buttons_cta:hover{
+    background-color: var(--light-blue);
+    transition: 1.5s;
+}
+
+.buttons_cta--blue:hover{
+    background-color: var(--strong-cyan);
+    transition: 1.5s;
+}
+
+.buttons_cta--blue{
+    background-color: var(--light-blue);
+    box-shadow: 0 0 10px -5px var(--light-blue);
+}
+
+/* footer */
+
+.footer{
+    background-color: #f2f2f2;
+    text-align: center;
+
+}
+
+.footer_img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.footer_links{
+    margin: 4em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.footer_link:hover{
+    text-decoration: underline;
+}
+
+.footer_icon{
+    display: block;
+    max-width: 30px;
+}
+
+.footer_media{
+    text-decoration: none;
+}
+
+.footer_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+@media (min-width:768px){
+
+/* hero */
+
+    .hero{
+        --padding-container: 120px 0 90px;
+        background-image: url(../img/Diari.png);
+    }
+
+    .hero_title{
+        font-size: 2.5rem;
+    }
+
+    .hero_picture{
+        min-height: 460px;
+    }
+
+    .buttons{
+        margin-top: 3em;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .buttons_cta{
+        border-radius: 1em 3em;
+        padding: 1em 3em;
+    }
+    
+    .buttons_cta--blue{
+        background-color: var(--light-blue);
+        box-shadow: 0 0 10px -5px var(--light-blue);
+    }
+
+/* track */
+
+    .title{
+        font-size: 2.5rem;
+    }
+
+    .track{
+        --padding-container: 80px 0 0;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+       
+    .track_texts{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1.5em;
+    }
+
+    .track_picture{
+        position: relative;
+        width: 50%;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .track_img{
+        width: 125%;
+        max-width: 650px;
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+    
+    .track_articles{
+        width: 42%;
+        gap: 3em;
+        margin: 0 auto;
+        text-align: left;
+        align-self: center;
+    }
+
+    .track__offer {
+        color: var(--dark-grayish-blue);
+        font-size: 1.5rem;
+    }
+
+    .track__copy {
+        margin-top: .7em;
+        line-height: 1.5;
+        color: var(--grayish-blue);
+    }
+
+    .track_item{
+        position: relative;
+        bottom: 400px;
+        left: 250px;
+    }
+
+    /* clipboard */
+
+    .clipboard {
+        --padding-container: 20px 0 80px;
+        position: relative;
+        bottom: 300px;
+    }
+
+    .clipboard__img {
+        max-width: 700px;
+    }
+
+    .clipboard__offer {
+        flex-direction: row;
+        gap: 2em;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .clipboard__item {
+        flex: 1;
+        /* grow:1 shrink:1 basis:0 */
+    }
+
+    /* brands */
+
+    .brands {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2em;
+        position: relative;
+        bottom: 300px;
+    }
+
+    .brands__item {
+        min-width: 100px;
+        max-width: 130px;
+        flex: 1;
+    }
+
+    .actions{
+        position: relative;
+        bottom: 400px;
+    }
+
+    .footer__container {
+       display: flex;
+       gap: 2em;
+       align-items: center;
+    }
+
+    .footer__img {
+       width: 70px;
+    }
+
+    .footer__links {
+        margin: 0;
+       
+        flex-direction: row;
+        gap: 1em;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__link {
+        width: 28%;
+    }
+
+   
+    .footer__social {
+        margin-left: auto;
+    }
+}
