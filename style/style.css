@@ -1,6 +1,6 @@
 :root{
     --dark-grayish-blue: hsl(210, 10%, 33%);
-    --grayish-blue: hsl(201, 11%, 66%);
+    --grayish-blue: hsl(202, 13%, 62%);
     --strong-cyan: hsl(171, 66%, 44%);
     --light-blue: hsl(233, 100%, 69%);
     
@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Bai Jamjuree', sans-serif;
+    /* background-color: #eee; */
 }
 
 .container{
@@ -71,12 +72,20 @@ body{
     margin-top: 3.5em;
 }
 
+/* .track_item{
+    margin-left: 200px;
+} */
+
 .track_articles{
     display: flex;
     flex-direction: column;
     gap: 3.5em;
     margin-top: 2.5em;
     text-align: center;
+}
+
+.track_container{
+    height: min-content;
 }
 
 .track_offer{
@@ -94,6 +103,7 @@ body{
 
 .clipboard{
     text-align: center;
+    margin-top: 0px;
 }
 
 .clipboard_picture{
@@ -131,10 +141,17 @@ body{
     line-height: 1.5em;
     margin-top: 1em;
 }
-
+#ideasNegocio{
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid var(--grayish-blue); */
+}
+#ideasNegocio td{
+    padding: 5px;
+}
 .clipboard_icon{
     display: block;
-    width: 45px;
+    width: 80px;
     margin: 0 auto;
     margin-bottom: 1.5em;
 }
@@ -291,7 +308,7 @@ body{
         position: relative;
         width: 50%;
         overflow: hidden;
-        height: 400px;
+        height: max-content;
     }
 
     .track_img{
@@ -326,7 +343,7 @@ body{
 
     .track_item{
         position: relative;
-        bottom: 400px;
+        bottom: 800px;
         left: 250px;
     }
 
