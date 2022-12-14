@@ -1,0 +1,2 @@
+Para ver el contenido del Diario de aprendizaje abre el archivo index.html
+Al abrirlo se te deberia de abrir el navegador y salirte el contenido
