@@ -1,14 +1,13 @@
 <!-- UD1:
         Cualidades del emprendedor
-        Modelo canvas
     
      UD2:
         Responsabilidad social de la empresa (web agenda 2030)
     
      UD4:
-        El mercado (oferta y demanda, calculo tamaño y quota)
-        Tipos de mercado
-        Segmentacion
+        El mercado (oferta y demanda, calculo tamaño y quota) // HECHO
+        Tipos de mercado // HECHO
+        Segmentacion // HECHO
         El marketing (4P y viral)
         Sugerencia de quejas, feedback con el cliente
         -->
@@ -22,17 +21,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Diario de Aprendizaje</title>
 </head>
 <body>
 
+    <header class="p-3 text-bg-dark">
+        <div class="conteiner">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#idea_negocio" class="nav-link px-2 text-white">Ideas de negocio</a></li>
+              <li><a href="#entorno_empresa" class="nav-link px-2 text-white">La empresa y su entorno</a></li>
+              <li><a href="#plan_marketing" class="nav-link px-2 text-white">Plan de marketing</a></li>
+              <li><a href="#constitucion_puesta_marcha" class="nav-link px-2 text-white">Constitución Puesta Marcha</a></li>
+              <li><a href="#financiacion" class="nav-link px-2 text-white">Plan de inversiones y financiación</a></li>
+              <!-- <li><a href="#" class="nav-link px-2 text-white">About</a></li> -->
+            </ul>
+    
+            <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form> -->   
+            <!-- <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div> -->
+          </div>
+        </div>
+      </header>
+
+
     <header class="hero">
 
-        <section class="hero_container container">
+        <section class="hero_container contenido">
 
             <figure class="hero_picture">
                 <img src="imagen encabezado" class="hero_picture" alt="">
@@ -83,7 +107,7 @@
         </section>
 
         <section class="clipboard">
-            <h2 class="title">Ud. 1 - Idea de negocio</h2>
+            <h2 id="idea_negocio" class="title"> Idea de negocio</h2>
             <p class="parafro">En este ejercicio tengo que decir un ejemplo de producto o negocio para cada cambio de la sociedad,<p class="parafro"> un ejemplo de producto o negocio por cada factor diferenciador, un ejemplo de producto o negocio por cada tipo de innovación.</p></p>
 
             <figure class="clipboard_picture">
@@ -200,15 +224,23 @@
                     </p>
                 </article>
 
+                <article class="cliboard_item">
+                    <h3 class="clipboard_title">Modelo Canvas</h3>
+                    <p class="clipboard_parafro">
+                        <p class="clipboard_parafro">El modelo Canvas es una herramienta ideal para comprender un modelo de negocio de forma más directa y estructurada. Utilizarlo te ayudará a visualizar la información de tus clientes, </p><p class="clipboard_parafro"> las propuestas de valor que ofreces, a través de qué canales y cómo tu empresa gana dinero. Además, puedes usar el modelo Canvas no solo para comprender tu propio modelo comercial, sino también el de tus competidores.</p> 
+                        <img style="width: 300px;" src="./img/modelo-canvas.jpg" alt="Modelo Canvas">
+                    </p>
+                </article>
+
             </div>
         </section>
 
         <section class="clipboard">
-            <h2 class="title">Ud. 2 - La empresa y su entorno</h2>
+            <h2 id="entorno_empresa" class="title">La empresa y su entorno</h2>
             <p class="parafro">Una empresa és una unidad de organización dedicada a actividades industriales,
                 mercantiles o de prestación de servicios con fines lucrativos o sociales.</p></p>
             <figure class="clipboard_picture">
-                <img src="./img/ideas-icon.svg" class="clipboard_img">
+                <img src="./img/empresa-removebg-preview.png" class="clipboard_img">
             </figure>
 
             <div class="clipboard_offer">
@@ -271,7 +303,250 @@
 
             </div>
         </section>
-<!-- 
+
+        <section class="clipboard">
+            <h2 id="plan_marketing" class="title">Estudio de mercado y plan de marketing</h2>
+            <p class="parafro">¿Qué es un Plan de Marketing? El Plan de Marketing es el documento que resume la planificación de las estrategias </p><p class="clipboard_parafro"> de Marketing para un período determinado, incluyendo objetivos, indicadores, análisis, entre otra información importante para orientar a la empresa.</p></p>
+            <figure class="clipboard_picture">
+                <img src="./img/plan-marketing-removebg-preview.png" class="clipboard_img">
+            </figure>
+
+            <div class="clipboard_offer">
+
+                <article class="cliboard_item">
+                    <h3 class="clipboard_title">El mercado</h3>
+                    <p class="clipboard_parafro">Lugar físico o virtual (Internet) en el que los compradores y vendedores realizan transacciones de bienes o servicios (intercambios). El mercado se rije esencialmente por la oferta y demanda de un producto o servicio.</p>
+                    <p class="clipboard_parafro"><b>Demanda</b>: cantidad de
+                        producto que los
+                        compradores están
+                        dispuestos a adquirir a un
+                        precio determinado.</p>
+                    <p class="clipboard_parafro"><b>Oferta</b>: cantidad de
+                        producto que los
+                        vendedores están
+                        dispuestos a ofrecer a
+                        un precio determinado.</p>
+                    <img style="width: 300px;" src="./img/ley-de-oferta-y-demanda-1280x720-removebg-preview.png"> 
+                    <br>
+                    <p class="clipboard_parafro">
+                        
+                        <p class="clipboard_parafro"><b>Tamaño del mercado</b></p>
+                        
+                        <p class="clipboard_parafro">Es el total de unidades vendidas en un determinado
+                            período y en un ámbito geográfico concreto.</p> 
+                        <br>
+                        <p class="clipboard_parafro"><b>Cuota de mercado</b></p>
+
+                        <p class="clipboard_parafro">La cuota de mercado es el porcentaje del tamaño de mercado que ofrece una empresa/una persona de un producto o servicio.</p> 
+                        <img style="width: 600px;" src="./img/cuota-mer.png" alt="Cuota de mercado"><br><br>
+                        <p class="clipboard_parafro">Mayor cuota de mercado no siempre significa mayor beneficio económico.</p><p class="clipboard_parafro">Por ejemplo Apple vende muchos menos telefonos moviles, pero es la marca que mas ingresa debido al margen de beneficio de sus productos</p>
+                        <img style="width: 600px;" src="./img/cuota-ejemplo.png" alt="Cuota de mercado ejemplo">
+                    </p>  
+                </article>
+                <article class="cliboard_item">
+                    <h3 class="clipboard_title">Tipos de mercado</h3>
+                    <p class="clipboard_parafro">
+                        <p class="clipboard_parafro">Existen 4 tipos de mercado, los cuales se distingen por ser productos tangibles o no y la finalidad de estos. </p>
+                        <p class="clipboard_parafro"><b>Bienes perecederos:</b> Se agotan en un período concreto de tiempo, son productos que tienen una fecha de caducidad cercana. Ejemplo: alimentos, combustibles, medicamentos, etc.</p> 
+                        <p class="clipboard_parafro"><b>Bienes duraderos:</b> Son productos que permiten un uso prolongado, por lo tanto tienen una fecha de obsolescencia muy superiror a los bienes perecederos. Ejemplo: automoviles, ropa, herramientas, etc.</p> 
+                        <p class="clipboard_parafro"><b>Bienes industriales:</b> Son productos que se utilizan para producir otros bienes, estos productos se extraen de algun lugar y son procesados para la utilización de estos en la creación de otros bienes. Ejemplo: petroleo, acero, etc.</p> 
+                        <p class="clipboard_parafro"><b>Bienes de servicios:</b> Tienen una naturaleza intangible y no se
+                            fabrican sino que se prestan. Ejemplo: policia, transporte, sanidad, etc.</p> 
+                    </p>
+                </article>
+                <article class="cliboard_item">
+                    <h3 class="clipboard_title">Segmentación del mercado</h3>
+                    <p class="clipboard_parafro">
+                        <p class="clipboard_parafro">Consiste en seleccionar entre todos los posibles clientes, aquellos que
+                            sean los más beneficiosos para la empresa, es decir, fijar nuestro  mercado meta.</p><p class="clipboard_parafro"> El mercado meta esta formado por el grupo de compradores potenciales que intentamos convertir en clientes. La segmentación del mercado consiste en 3 etapas:</p>
+                        <p class="clipboard_parafro"><b>1. </b>Segmentar el mercado. Consiste en segmentar el mercado de clientes en grupos homogéneos para
+                            llevar a cabo la estrategia comercial más adecuada en cada caso.</p> 
+                        <p class="clipboard_parafro"><b>2. </b>Seleccionar el segmento/os más adecuados. Decidir el segmento o segmentos que consideremos que nos proporcionarán el máximo beneficio.</p> 
+                        <p class="clipboard_parafro"><b>3. </b>Aplicar la estrategia más idónea a cada segmento. Definir la estrategia a emplear teniendo en cuenta los diferentes segmentos que hayamos elegido.</p> 
+                    </p>
+                    <p class="clipboard_parafro"><b>Primera Etapa</b></p>    
+                    <p class="clipboard_parafro">Consiste en segmentar el mercado de clientes en grupos homogéneos para llevar a cabo la estrategia comercial más adecuada en cada caso.</p> 
+                    <img style="width: 600px;" src="./img/segmentacio.png" alt="Primera Etapa segmentación">
+                    <p class="clipboard_parafro"><b>Segunda Etapa</b></p>    
+                    <p class="clipboard_parafro">Decidir el segmento o segmentos que consideremos que nos proporcionarán el máximo beneficio (Mercado META).</p>
+                    <p class="clipboard_parafro"><b>Tercera Etapa</b></p>    
+                    <p class="clipboard_parafro">Definir la estrategia a emplear teniendo en cuenta los diferentes segmentos que hayamos elegido.</p>
+                    <p class="clipboard_parafro"><b>Tipos de estrategia</b></p>    
+                    <p class="clipboard_parafro"><b>Estrategia indiferenciada: </b>consiste en ofrecer el mismo producto para los grupos de clientes. Las características básicas de esta estretegia son:
+                        <ul class="clipboard_parafro" style="list-style:none;">
+                            <li>Cuenta con pocos recursos económicos.</li>
+                            <li>Se mueven en entornos poco competitivos, los clientes no valoran la diferenciación.</li>
+                            <li>El universo clientes es muy amplio y no permite ofrecer trato diferenciado</li>
+                        </ul>
+                    </p>    
+                    <p class="clipboard_parafro"><b>Estrategia diferenciada: </b>consiste en dirigirse
+                        a los distintos segmentos del mercado con
+                        diferentes productos para que los consumidores
+                        tengan donde elegir. Se da cuando:
+                        <ul class="clipboard_parafro" style="list-style:none;">
+                            <li>Cuentan con recursos económicos elevados.</li>
+                            <li>Se mueven en entornos muy competitivos,
+                                donde es vital la diferenciación.</li>
+                            <li>Disponen de herramientas para
+                                identificar y cuantificar posibles tipos de clientes.</li>
+                        </ul>
+                    </p>
+                    <p class="clipboard_parafro"><b>Estrategia concentrada: </b>la empresa se dirige a un segmento determinado
+                        para ofrecerle un producto muy concreto. Se da cuando:
+                        <ul class="clipboard_parafro" style="list-style:none;">
+                            <li>Quieren alcanzar un nuevo nicho de mercado.</li>
+                            <li>Se especializan en un determinado producto o servicio.</li>
+                            <li>Deciden concentrar todos los recursos económicos y personales en el
+                                segmento que consideran que les va a aportar un mayor beneficio.</li>
+                        </ul>
+                    </p> 
+                </article>
+                <article class="cliboard_item">
+                    <h3 class="clipboard_title">El marketing</h3>
+                    <p class="clipboard_parafro">
+                        <p class="clipboard_parafro">A través del marketing se realizarán una serie de estudios y
+                            análisis de los diferentes</p><p class="clipboard_parafro"> factores que van a influir en la decisión
+                            de los compradores de cualquier producto a esto se le llama "Investigación de
+                            mercado".</p> 
+                        <p class="clipboard_parafro"> Un método muy utilizado por las empresas en el marketing son las 4P del marketing. Las cuatro p del marketing son: producto, precio, punto de venta y promoción.</p> 
+                        <p class="clipboard_parafro"><b>Plan de marketing</b></p>
+                        <p class="clipboard_parafro">Es una herramienta vital también llamada «Teoría de las 4P»</p> <p class="clipboard_parafro">por las iniciales de las cuatro variables
+                            que lo conforman (producto, precio, promoción y place o
+                            distribución). </p>
+                        <p class="clipboard_parafro">Un producto és un bien o servicio susceptible de ser vendido. Existen 3 niveles de productos:</p>
+                        <p class="clipboard_parafro"><b>Nivel básico:</b> representa la necesidad que desea satisfacer el consumidor.</p>
+                        <p class="clipboard_parafro"><b>Nivel formal:</b> son las características o atributos que buscamos en el producto, es decir, buscamos un producto que cumpla una serie de requisitos.</p>
+                        <p class="clipboard_parafro"><b>Nivel ampliado:</b> factor diferenciador o valor añadido asociado a la compra, es decir,</p><p class="clipboard_parafro"> buscamos que además del producto en sí se nos ofrezca una caractrística única/exclusiva.</p><br>
+                        
+                        <h3 class="clipboard_title">El Precio</h3>
+
+                        <p class="clipboard_parafro">Una de las características mas importante de un producto es el precio de este.</p><p class="clipboard_parafro"> Existen formulas para calcular el precio unitario y de venta para sacar el beneficios del producto.</p> 
+                        <p class="clipboard_parafro"><img src="img/precio.png" alt="Formulas precio"></p><br>
+
+                        <p class="clipboard_parafro">También existen distintos tipos de precio para distintas situaciones.</p>
+                        <p class="clipboard_parafro"><img src="img/tipos_precio.png" alt="Tipos de precio"></p><br>
+
+                        <h3 class="clipboard_title">El Producto</h3>
+
+                        <p class="clipboard_parafro"><b>Tipos de productos</b></p>
+                        <p class="clipboard_parafro"><b>Según su tangibilidad</b></p>
+                        <p class="clipboard_parafro">- <b>Bienes: </b>tangibles, físicos, que se pueden tocar. Los podemos dividir en duraderos
+                            (muebles) y no duraderos(gasolina).</p> 
+                        <p class="clipboard_parafro">- <b>Servicios: </b>son intangibles, se producen y consumen al mismo tiempo (un masaje).</p> 
+                        <p class="clipboard_parafro"><b>Según su finalidad</b></p>
+                        <p class="clipboard_parafro">- <b>De consumo: </b>destinados al consumo de los particulares y de los hogares.
+                            Pueden ser: Básicos / Impulso / Emergencia / Comparación / Lujo.</p> 
+                        <p class="clipboard_parafro">- <b>Industriales: </b>para producir otros bienes. Por ejemplo, comprar harina para hacer pan.</p> 
+                        <p class="clipboard_parafro"><b>Según su relación con la demanda de otros productos</b></p>
+                        <p class="clipboard_parafro">- <b>Bienes complementarios: </b>por ejemplo,la impresora yel cartuchode tinta, el coche yla
+                            gasolina o gasoil.</p> 
+                        <p class="clipboard_parafro">- <b>Bienes sustitutivos: </b>compiten en el mercado porque cubren una misma necesidad. Por
+                            ejemplo,elegir entre consumir aceite de oliva o de girasol...</p>
+                        <p class="clipboard_parafro">- <b>Bienes independientes: </b>no tienen nada que ver unos con otros. Por ejemplo, una
+                            manzana y una tablet.</p>
+                        <h3 class="clipboard_title">Ciclo de vida del producto</h3>
+                        <p class="clipboard_parafro">
+                            <img src="img/ciclo_vida_producto.jpg" alt="Ciclo de vida del producto" style="width: 900px;">
+                        </p>
+
+                        <h3 class="clipboard_title">La Promoción</h3>
+
+                        <p class="clipboard_parafro">El canal por el cual las empresas dan a conocer a los clientes su producto son los canales de comunicación.</p>
+                        <p class="clipboard_parafro">Tres de los canales de comunicación mas utilizados por las empresas para incentivar la compra de sus productos a los clientes son:</p>
+                        <p class="clipboard_parafro"><b>Promoción de ventas:</b> Incentivos a corto plazo: muestras, vales descuento,
+                            sorteos promocionales, promociones en el lugar de ventas, etc.</p>
+                        <p class="clipboard_parafro"><b>Venta Directa:</b> Comercialización de bienes de consumo y servicios directamente al consumidor
+                            mediante un vendedor o representante.</p>
+                        <p class="clipboard_parafro"><b>Esponsorización:</b> Objetivo: crear una imagen positiva de la empresa (eventos culturales, científicos deportivos, etc.).</p><br>
+
+                        <h3 class="clipboard_title">La distribución del producto(PLACE)</h3>
+                        <p class="clipboard_parafro"><p class="clipboard_parafro">El canal por el cual las empresas dan a conocer a los clientes su producto son los canales de comunicación. Existen 3 canales de distribución:</p></p>
+                        <p class="clipboard_parafro">
+                            <img src="img/canales-de-distribucion.jpg" alt="Canales de distribucion" style="width: 600px;">
+                        </p>
+
+                        <h3 class="clipboard_title">La Quinta P</h3>
+
+                        <p class="clipboard_parafro">La quinta "P" del marketing se refiere a las "personas" o los clientes a los que se dirige una empresa o producto.</p> 
+                        <p class="clipboard_parafro">El enfoque en las personas es esencial para el éxito del marketing, ya que ayuda a las empresas a desarrollar productos y campañas publicitarias que sean relevantes y atractivas para su público objetivo.</p>
+                        <p class="clipboard_parafro">
+                            <img src="img/5p.jpg.crdownload" alt="Canales de distribucion" style="width: 600px;">
+                        </p>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <br>
+
+        <section class="clipboard">
+            <h2 id="constitucion_puesta_marcha" class="title">Constitución y puesta en marcha</h2>
+            <figure class="clipboard_picture">
+                <img src="./img/constitucion_puesta_en_marcha.jpg" class="clipboard_img">
+            </figure>
+
+            <div class="clipboard_offer">
+                <h3 class="clipboard_title">¿Que es la persona jurídica y la física?</h3>
+
+                <p class="clipboard_parafro">La personalidad jurídica se refiere a una entidad que tiene derechos y obligaciones legales, mientras que la personalidad física se refiere a un individuo que tiene derechos y obligaciones legales.</p>
+
+                <h3 class="clipboard_title">¿Cómo iniciar la constitución de una empresa?</h3>
+                <p class="clipboard_parafro">Lo primero de todo es escoger la personalidad jurídica de la empresa. Las distintas formas jurídicas son:</p>
+                <p class="clipboard_parafro">
+                    <img src="img/fomas_juridicas.png" alt="Formas jurídicas" style="width: 600px;">
+                </p>
+
+                <p class="clipboard_parafro">Lo segundo es escoger la responsabilidad del empresario/a. Hay dos tipos de responsabilidad:</p>
+
+                <p class="clipboard_parafro"><b>Responsabilidad limitada: </b>la responsabilidad limitada significa que en caso de tener que pagar deudas de la empresa el empresario solo se hará responsable del importe hasta el capital social aportado</p>
+                <p class="clipboard_parafro"><b>Responsabilidad ilimitada: </b>con la responsabilidad ilimitada el empresario tendrá que hacerse cargo de las deudas con todos sus bienes y activos, presentes y futuros.</p>
+
+                <p class="clipboard_parafro">A continuación necesitaremos hacer los trámites de constitución de la empresa. Dependiendo de la forma jurídica que escojamos el trámite de esta cambiará. Estos son los trámites necesarios para cada tipo de forma jurídica:</p>
+                <p class="clipboard_parafro">
+                    <img src="img/tramites.png" alt="Tramites" style="width: 600px;">
+                </p>
+
+                <p class="clipboard_parafro">Finalmente lo último que tendremos que hacer es hacer los trámites necesarios para la puesta en marcha antes de iniciar la actividad:</p>
+                <p class="clipboard_parafro">
+                    <img src="img/tramites_puesta_marcha.png" alt="Tramites" style="width: 600px;">
+                </p>
+
+            </div>
+        </section>
+<br><br><br><br>
+        <section class="clipboard">
+            <h2 id="financiacion" class="title">Plan de inversiones y financiación</h2>
+            <figure class="clipboard_picture">
+                <img src="./img/plan_financiacion_.jpg" class="clipboard_img">
+            </figure>
+
+            <div class="clipboard_offer">
+                <h3 class="clipboard_title">Plan de financiación</h3>
+
+                <p class="clipboard_parafro">El plan de financiación es el método por el cual una empresa obtiene el capítal. Hay muchas fuentes de financiación las cuales se dividen en financiación ajena, propia, mediante ayudas públicas y colectiva.</p>
+                <p class="clipboard_parafro">
+                    <img src="img/fuentes_financiacion.png" alt="Formas jurídicas" style="width: 600px;">
+                </p>
+
+                <h3 class="clipboard_title">Finanación propia</h3>
+
+                <p class="clipboard_parafro"><b>Aportaciones del empresario: </b>Es el dinero que aportan los socios promotores. Constituye el capital social de la empresa.</p>
+                <p class="clipboard_parafro"><b>Familia y amigos: </b>Es el apoyo financiero que pueda prestarnos nuestro círculo de familia- res y amigos.</p>
+                <p class="clipboard_parafro"><b>Familia y amigos: </b>Es el apoyo financiero que pueda prestarnos nuestro círculo de familia- res y amigos.</p>
+                <p class="clipboard_parafro"><b>Sociedad de Capital Riesgo (SCR): </b>Empresas especializadas que se dedican a invertir de forma temporal y mi- noritaria (su inversión no suele llegar al 50% del capital)en empresas con gran potencial.</p>
+                <p class="clipboard_parafro"><b>Business Angels: </b>Particulares que invierten su dinero en proyectos empresariales ofreciéndoles además, asesoramiento, experiencia y contactos. Participa, por tanto, en la gestión del negocio (a diferencia de las 3F).</p>
+
+                <h3 class="clipboard_title">Finanación ajena</h3>
+                
+                <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Fuentes de financiación: Finanación Ajena" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/63ea0be509961200112eddf1" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+                
+
+            </div>
+        </section>
+
+
+<!--
         <section class="brands container">
             <img src="./img/f1_logo.png" class="brands_image" alt="F1 Logo">
             <img src="./img/Fédération_Internationale_de_l'Automobile_(emblem).svg.png" class="brands_image" alt="F1 Logo">
@@ -290,7 +565,7 @@
 
     <footer class="footer">
 
-        <section class="footer_container container">
+        <section class="footer_container contenido">
 
             <figure class="footer_picture">
                 <img src="./img/copyright.png" alt="copyright 2022" class="footer_img">
